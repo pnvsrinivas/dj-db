@@ -26,7 +26,7 @@ SECRET_KEY = '98-at3p^k-cwwxp*18#6g4k%!h8b2xw545iktw)h*+ne7&@h=v'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ["*", "dj-db.azurewebsites.net"]
 
 
 # Application definition
